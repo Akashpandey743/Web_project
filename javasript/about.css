@@ -1,0 +1,42 @@
+.main_content{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.main_content>h2{
+    margin:25px 0;
+    font-weight:800;
+    font-size:25px;
+    color:rgb(37, 114, 37);
+}
+.extra_content{
+    margin-top:50px;
+    display:flex;
+    
+}
+.doctors{
+    margin-right:200px;
+    display:inline-block;
+    border:1px solid lightgray;
+    border-radius:12px;
+    padding:10px 14px;
+}
+.customers{
+    margin-right:100px;
+    display:inline-block;
+    border:1px solid lightgray;
+    border-radius:12px;
+    padding:10px 14px; 
+}
+.students{
+    /* margin-right:200px; */
+    display:inline-block;
+    border:1px solid lightgray;
+    border-radius:12px;
+    padding:10px 14px;
+}
+.extra_content span{
+    color:rgb(37, 114, 37);
+}

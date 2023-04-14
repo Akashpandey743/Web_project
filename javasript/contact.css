@@ -1,0 +1,48 @@
+.contact_info{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+form{
+    width:325px;
+    border-radius:5px;
+    background-color: #f2f2f2;
+    padding:20px;
+    display:inline-block;
+}
+label{
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:5px;
+}
+.input{
+    width:100%;
+    padding:12px 8px;
+    border:transparent;
+    border-radius:8px;
+    box-sizing:border-box;
+    display:inline-block;
+
+}
+form textarea{
+    resize:none;
+}
+form button{
+    width:100%;
+    padding:8px;
+    margin-top:7px;
+    background-color: #20BC7E;
+    border:none;
+    border-radius:8px;
+    color:white;
+    font-size:large;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+form h1{
+    text-align:center;
+    font-size:large;
+}
